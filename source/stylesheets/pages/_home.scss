@@ -1,0 +1,54 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+.contain-main {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.header {
+  width: 312px;
+  margin: 2em 1em 2em 1em;
+}
+
+.all-boxes {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  align-items: flex-end;
+  margin-top: 138px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  position: relative;
+}
+
+.back-box {
+  width: 890px;
+  height: 80vh;
+  background: #D5FF9F;
+  border-radius: 198px 0px 0px 0px;
+  // position: relative;
+}
+
+.middle-box {
+  width: 805px;
+  height: 70vh;
+  border-radius: 198px 0px 0px 0px;
+  background: #E0FFB9;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.front-box {
+  width: 719px;
+  height: 60vh;
+  border-radius: 198px 0px 0px 0px;
+  background: #EBFFD3;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

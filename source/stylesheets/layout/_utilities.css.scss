@@ -4,22 +4,12 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-// Paddings
-.padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+body {
+  background: #F8F5F3;
 }
 
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+h1 {
+  font-weight: bold;
+  font-size: 66px;
 }
-.bg-email {
-  background: #aeaeae;
-}
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
-}
+
