@@ -2,15 +2,21 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-const backBox = document.getElementById("back-box");
-const headers = document.querySelector(".header");
-console.log(headers);
-console.log(backBox);
+const backBox = document.getElementById("back-box2");
+const smallBox = document.getElementById("back-box2-small");
+// console.log(smallBox);
 
-const rotate = (query) => {
+const rotateBig = (query) => {
   window.addEventListener("scroll", (event) => {
-    backBox.style.transform = "rotate("+window.pageYOffset+"deg)";
+    backBox.style.transform = "rotate("+(window.pageYOffset / 10)+"deg)";
   });
 };
 
-rotate();
+const rotateSmall = (query) => {
+  window.addEventListener("scroll", (event) => {
+    smallBox.style.transform = "rotate(-"+(window.pageYOffset / 2)+"deg)";
+  });
+};
+
+rotateBig();
+rotateSmall();
