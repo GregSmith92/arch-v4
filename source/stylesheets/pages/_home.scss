@@ -20,7 +20,7 @@ html {
   margin: 2em 1em 2em 1em;
   position: -webkit-sticky;
   position: sticky;
-  top: 10rem;
+  top: 14rem;
 }
 
 .all-boxes2 {
@@ -31,15 +31,15 @@ html {
   align-items: flex-end;
   margin-top: 138px;
   position: absolute;
-  right: -120px;
-  top: 150px;
+  right: -282px;
+  top: 12px;
 
 }
 
 .back-box2 {
   // width: 890px;
-  width: 60vw;
-  height: 80vh;
+  width: 60em;
+  height: 60em;
   background: #D5FF9F;
   border-radius: 200px;
   overflow: hidden;
@@ -72,9 +72,9 @@ html {
 
 .back-box2-small {
   // width: 890px;
-  width: 20vw;
-  height: 20vh;
-  background: #D5FF9F;
+  width: 20em;
+  height: 20em;
+  background: #024150;
   border-radius: 30px;
   overflow: hidden;
   margin-top: 500px;
@@ -84,7 +84,7 @@ html {
     width: 83%;
     height: 83%;
     border-radius: 28px;
-    background: #E0FFB9;
+    background: #0482A1;
     margin: auto;
     margin-top: 7%;
     position: relative;
@@ -95,13 +95,21 @@ html {
       width: 72%;
       height: 72%;
       border-radius: 25px;
-      background: #EBFFD3;
+      background: #05B2DC;
       margin: auto;
       position: absolute;
       top: 14%;
       right: 14%;
 
     }
+  }
+}
+
+.middle {
+  width: 100vw;
+  text-align: center;
+  h2 {
+
   }
 }
 
