@@ -27,7 +27,7 @@ $(window).scroll(function(){
     $(".project-header").css("opacity", -1.4 + $(window).scrollTop() / 400);
   });
 
-$('#globe-photo').hover(
+$('#globeup').hover(
     function(){
         $('#globe-info').css('display', 'block');
                        },
@@ -36,7 +36,7 @@ $('#globe-photo').hover(
                }
 );
 
-$('#cha-photo').hover(
+$('#cha-cha').hover(
     function(){
         $('#cha-info').css('display', 'block');
                        },
