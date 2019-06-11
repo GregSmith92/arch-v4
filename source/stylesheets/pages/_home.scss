@@ -15,12 +15,21 @@ html {
   align-items: flex-start;
 }
 
-.header {
-  width: 312px;
-  margin: 2em 1em 2em 1em;
+.home-text {
   position: -webkit-sticky;
   position: sticky;
-  top: 14rem;
+  top: 0rem
+}
+
+.header {
+  width: 312px;
+  margin: 14rem 7rem 4rem 7rem;
+}
+
+.bio {
+  width: 465px;
+  margin-left: 7rem;
+  color: #474343;
 }
 
 .all-boxes2 {
@@ -78,6 +87,7 @@ html {
   border-radius: 30px;
   overflow: hidden;
   margin-top: 500px;
+  opacity: 0.8;
   // position: relative;
   .middle-box2-small {
     // width: 805px;
@@ -109,8 +119,19 @@ html {
   width: 100vw;
   text-align: center;
   h2 {
-
+    margin-left: 58vw;
+    margin-top: -2px;
+    // position: -webkit-sticky;
+    // position: sticky;
+    // top: 14rem;
   }
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 

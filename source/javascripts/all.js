@@ -20,7 +20,11 @@ const rotateSmall = (query) => {
 
 
 $(window).scroll(function(){
-    $(".header").css("opacity", 1 - $(window).scrollTop() / 600);
+    $(".home-text").css("opacity", 1.8 - $(window).scrollTop() / 300);
+  });
+
+$(window).scroll(function(){
+    $(".project-header").css("opacity", -1.4 + $(window).scrollTop() / 400);
   });
 
 
