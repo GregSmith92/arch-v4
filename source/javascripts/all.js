@@ -27,6 +27,24 @@ $(window).scroll(function(){
     $(".project-header").css("opacity", -1.4 + $(window).scrollTop() / 400);
   });
 
+$('#globe-photo').hover(
+    function(){
+        $('#globe-info').css('display', 'block');
+                       },
+    function(){
+        $('#globe-info').css('display', 'none');
+               }
+);
+
+$('#cha-photo').hover(
+    function(){
+        $('#cha-info').css('display', 'block');
+                       },
+    function(){
+        $('#cha-info').css('display', 'none');
+               }
+);
+
 
 rotateBig();
 rotateSmall();

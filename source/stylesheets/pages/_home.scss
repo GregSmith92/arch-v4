@@ -146,12 +146,20 @@ html {
     width: 344px;
     object-fit: cover;
   }
+  .card-info {
+    display: none;
+  }
 }
 
-.photo:hover {
-  opacity: 0;
-  transition: 0.5s;
-}
+// .card-info:hover {
+//   display: block;
+// }
+
+// .photo:hover {
+//   opacity: 0;
+//   transition: 0.3s;
+
+// }
 
 
 #globeup {
