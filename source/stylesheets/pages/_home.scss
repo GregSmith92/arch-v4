@@ -119,8 +119,7 @@ html {
   width: 100vw;
   text-align: center;
   h2 {
-    margin-left: 58vw;
-    margin-top: -2px;
+    margin: auto -2px;
     // position: -webkit-sticky;
     // position: sticky;
     // top: 14rem;
@@ -131,8 +130,38 @@ html {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.cards {
+  width: 63vw;
+  height: 200px;
+  margin: auto 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0rem;
+  .photo {
+    height: inherit;
+    width: 344px;
+    object-fit: cover;
+  }
+}
+
+.photo:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+#globeup {
+  justify-content: flex-end;
+}
+
+#cha-cha {
   justify-content: flex-start;
 }
+
 
 
 
