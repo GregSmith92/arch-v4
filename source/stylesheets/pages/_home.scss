@@ -145,6 +145,7 @@ html {
     height: inherit;
     width: 344px;
     object-fit: cover;
+    border-radius: 5px;
   }
   .card-info {
     display: none;
@@ -179,7 +180,7 @@ html {
 .card-btn {
   padding: 5px 20px;
   background: #3599B1;
-  color: #474343;
+  // color: #474343;
   color: white;
   border-radius: 3px;
   text-decoration: none;
@@ -190,7 +191,34 @@ html {
   background: #336571;
   color: white;
 }
+.footer{
+  width: 100vw;
+  height: 350px;
+  background: #D5FF9F;
+  text-align: center;
+  h2 {
+    padding: 30px 0px 10px 0px;
+  }
 
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10px !important;
+  // a {
+  //   text-decoration: none;
+  // }
+  i {
+    font-size: 36px;
+    color: #474343;
+  }
+  i:hover {
+    color: #3599B1;
+  }
+}
 
 
 
