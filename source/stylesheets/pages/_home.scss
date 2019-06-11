@@ -127,9 +127,9 @@ html {
 }
 
 .card-container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
+  // display: flex;
+  // flex-flow: row wrap;
+  // align-items: flex-start;
   justify-content: center;
   margin-top: 4rem;
 }
@@ -140,7 +140,7 @@ html {
   margin: auto 10px;
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0rem;
+  margin: 5rem 0rem;
   .photo {
     height: inherit;
     width: 344px;
@@ -151,9 +151,17 @@ html {
   }
 }
 
-// .card-info:hover {
-//   display: block;
-// }
+.card-info {
+  padding: 0px 8px;
+  width: 344px;
+  h3 {
+    margin-top: 0px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+}
+
 
 .photo:hover {
   transition: 0.5s;
@@ -165,9 +173,23 @@ html {
 }
 
 #cha-cha {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
+.card-btn {
+  padding: 5px 20px;
+  background: #3599B1;
+  color: #474343;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.card-btn:hover {
+  text-decoration: none;
+  background: #336571;
+  color: white;
+}
 
 
 

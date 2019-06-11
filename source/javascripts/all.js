@@ -24,7 +24,7 @@ $(window).scroll(function(){
   });
 
 $(window).scroll(function(){
-    $(".project-header").css("opacity", -1.4 + $(window).scrollTop() / 400);
+    $(".project-header").css("opacity", -1.6 + $(window).scrollTop() / 400);
   });
 
 $('#globeup').hover(
