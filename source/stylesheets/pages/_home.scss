@@ -18,7 +18,8 @@ html {
 .home-text {
   position: -webkit-sticky;
   position: sticky;
-  top: 0rem
+  top: 0rem;
+  z-index: 1;
 }
 
 .header {
@@ -76,6 +77,81 @@ html {
       right: 14%;
 
     }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 43px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .header {
+    margin: 2rem 7rem 4rem 2rem;
+  }
+  .bio {
+  width: 200px;
+  margin: 21rem 0rem 0rem 2rem;
+  color: #474343;
+  line-height: 1.4;
+  }
+  .all-boxes2 {
+    right: -330px;
+  }
+
+  .back-box2 {
+  // width: 890px;
+  width: 30em;
+  height: 30em;
+  background: #D5FF9F;
+  border-radius: 50px;
+  overflow: hidden;
+  // position: relative;
+    .middle-box2 {
+      // width: 805px;
+      width: 83%;
+      height: 83%;
+      border-radius: 45px;
+      background: #E0FFB9;
+      margin: auto;
+      margin-top: 7%;
+      position: relative;
+      // bottom: 32px;
+      // right: 39px;
+      .front-box2 {
+        width: 72%;
+        height: 72%;
+        border-radius: 40px;
+        background: #EBFFD3;
+        margin: auto;
+        position: absolute;
+        top: 14%;
+        right: 14%;
+      }
+    }
+  }
+  .middle {
+    margin-top: 53px;
+  }
+  .cards {
+    width: 100vw;
+  }
+  #globeup {
+    justify-content: center;
+    p {
+    display: none;
+    }
+  }
+  #cha-cha {
+    justify-content: center;
+    p {
+    display: none;
+    }
+  }
+  .footer p {
+    padding: 0px 30px;
   }
 }
 
